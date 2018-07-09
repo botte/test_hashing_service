@@ -4,7 +4,7 @@ Python2 / PyTest tests for 'ACME Password Hash Service.'
 
 ## Getting Started
 ```
-The executable service service must available to the local file system.
+The service executable must available to the local file system.
 It is highly recommended installing the test suite into a Python virtual environment.
 ```
 
@@ -12,7 +12,6 @@ It is highly recommended installing the test suite into a Python virtual environ
 ```
 Test suite was ONLY run and tested on Ubuntu 6.04.1.
 Tests only verified using python2.
-NOTE: Tests will NOT run correctly with python3.
 ```
 
 ### Prerequisites
@@ -20,7 +19,6 @@ NOTE: Tests will NOT run correctly with python3.
 4G RAM
 
 Python2.7.x
-pip (setup.py will install package dependencies)
 
 NOTE: Tests will NOT run correctly with python3.
 ```
