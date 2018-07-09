@@ -27,8 +27,8 @@ NOTE: Tests will NOT run correctly with python3.
 ```
 1. Edit the file 'config.ini,' located in base of the cloned test project.
 
-   server = 'file system location of the executable service
-   port = service port 
+   server = 'file system location of the executable service'
+   port = 'service port' 
 
 
 2. In base project directory, run
@@ -44,7 +44,7 @@ NOTE: Tests will NOT run correctly with python3.
 These five errors are repeatable running the automated test suite.
 
     POST /hash did not return immediately, took 5.0
-    GET /stats should not accept data.
+    GET /stats should not accept data
     Average time hash request 112559 > assumed max milliseconds 50000
-    New request (GET /stats) accepted when shutdown pending.
-    Password request accepted when shutdown pending.
+    New request (GET /stats) accepted when shutdown pending
+    Password request accepted when shutdown pending
