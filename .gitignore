@@ -1,0 +1,12 @@
+*.swp
+dist
+build
+*.pyc
+.ptest*
+__pycache__
+__init__.pyc
+.pytest_cache
+run_tests.egg-info
+.eggs
+results.html
+assets
